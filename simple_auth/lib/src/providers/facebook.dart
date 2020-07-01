@@ -34,7 +34,7 @@ class FacebookApi extends OAuthApi {
       WebAuthenticator authenticator) async {
     var auth = authenticator as FacebookAuthenticator;
     OAuthResponse result;
-    if (isUsingNative) {
+    if (isUsingNative == true) {
       result = new OAuthResponse(
           "Bearer", auth.expiration, auth.authCode, auth.authCode, null);
     } else {

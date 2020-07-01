@@ -12,7 +12,6 @@ dependencies:
   flutter:
     sdk: flutter
   simple_auth:
-    git: https://github.com/yonatann/simple_auth.git
 flutter:
   plugin:
     platforms:

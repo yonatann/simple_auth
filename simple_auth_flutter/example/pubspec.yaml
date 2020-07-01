@@ -26,13 +26,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-dependency_overrides:
-  simple_auth:
-    path: ../../simple_auth
-  simple_auth_flutter:
-    path: ../
-  simple_auth_generator:
-    path: ../../simple_auth_generator
+# dependency_overrides:
+#   simple_auth:
+#     path: ../../simple_auth
+#   simple_auth_flutter:
+#     path: ../
+#   simple_auth_generator:
+#     path: ../../simple_auth_generator
 
 
 # For information on the generic Dart part of this file, see the
